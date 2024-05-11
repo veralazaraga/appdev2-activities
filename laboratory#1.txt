@@ -1,0 +1,56 @@
+Create a new database named "Company".
+MariaDB [(none)]> CREATE DATABASE Company;
+
+
+Selecting a Database:
+Select the "Company" database.
+
+MariaDB [(none)]> USE Company
+
+
+Creating a Table:
+MariaDB [company]> CREATE TABLE Employees (
+    ->                      EmployeeID INT PRIMARY KEY,
+    ->                      FirstName VARCHAR(20),
+    ->                      LastName VARCHAR(20),
+    ->                      Age INT,
+    ->                     Department VARCHAR(50)
+    ->                  );
+
+Inserting Data into the Table:
+MariaDB [company]> INSERT INTO Employees (EmployeeID, FirstName, Lastname, Age, Department) VALUES
+    ->                  (1, 'Sherline', 'DeGuzman', 20, 'IT' ),
+    ->                  (2, 'Evelyn', 'Pagente', 22, 'Finance' ),
+    ->                  (3, 'Marjorie', 'Anito', 21, 'HR' ),
+    ->                  (4, 'Armie', 'Miranda', 21, 'Dpo' ),
+    ->                  (5, 'Rizabel Anne', 'Pili', 23, 'Accounting' );
+
+Retrieve and display all records from the "Employees" table.
+MariaDB [company]> SELECT * FROM Employees;
+
+Updating Data:
+Update the Department of employee with EmployeeID 2 to "Marketing".
+MariaDB [company]> UPDATE Employees SET Department = 'Marketing' WHERE EmployeeID = 2;
+
+Deleting Data:
+Delete the record of employee with EmployeeID 3 from the "Employees" table.
+MariaDB [company]> DELETE FROM Employees WHERE EmployeeID = 3;
+
+Dropping the Table:
+Drop the "Employees" table from the database.
+DROP TABLE Employees;
+
+Uploading SQL File to GitHub:
+Create a file named 01_laboratory.sql containing the SQL commands used in this laboratory activity.
+-- Creating a Database
+# SQL syntax here
+MariaDB [(none)]> CREATE DATABASE Company;
+
+
+-- Selecting a Database
+# SQL syntax here
+
+MariaDB [(none)]> USE Company
+
+
+
