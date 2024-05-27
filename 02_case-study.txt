@@ -1,0 +1,14 @@
+﻿Case Study #2
+
+
+Our IT company embarked on an ambitious project in January 2024 aimed at delivering a cutting-edge software solution to our users and clients. The project was meticulously planned with a target launch date of June 1. However, as the deadline approaches, it becomes apparent that several tasks are still in progress, and there are unresolved bugs that need attention. The testing process, crucial for ensuring product quality, has not yet begun. As a software engineer involved in the project, what aspects could have been handled better to prevent the delays and issues experienced, such as incomplete tasks, unresolved bugs, and a delayed testing process?
+
+
+For this activity, evaluate the situation and offer your suggestions on areas where improvements could have been made.
+
+
+Create a file named 02_case-study.txt and push your work to your public GitHub repository named appdev2-activities. The date of submission is May 20, 2024, until 11:59 PM.
+
+
+Answer:
+I suggest having a Project Planning and Scope Management because the Issue is The project appears to be behind schedule with incomplete tasks and unresolved bugs. To Improve it you need to have Detailed Milestones and Break down the project into more granular milestones with clear, achievable deadlines and Scope Control Regularly review the project scope to ensure no additional features are added without a thorough impact assessment.
